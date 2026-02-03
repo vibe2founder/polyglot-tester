@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Release] v0.4.1
+
+### What's Changed
+
+- :memo: **docs**: Added explicit "Running API Tests" section to README for clarity on execution steps.
+
 ## [0.4.0]
 
 ### What's Changed

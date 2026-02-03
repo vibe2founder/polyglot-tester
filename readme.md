@@ -266,6 +266,28 @@ await ApiSpec.define("Get User")
 
 > 📚 [Complete API Testing Documentation](./docs/api-teste-api.md)
 
+### 🏃 Running API Tests
+
+1. **Create a file** ending in `.spec.ts` (e.g., `api.spec.ts`)
+2. **Import** the dialect:
+   ```typescript
+   import { ApiSpec } from "@purecore/one-spec-4-all";
+   ```
+3. **Define and run** your test (supports Top-Level Await):
+   ```typescript
+   await ApiSpec.define("Health Check")
+     .from("http://localhost:3000")
+     .get("/health")
+     .shouldReturn(200)
+     .run();
+   ```
+4. **Execute** using the CLI:
+   ```bash
+   npx one-spec-4-all
+   # or with bun
+   bun run os4all
+   ```
+
 ## 🎭 Polyglot Example: Shopping Cart
 
 Using multiple dialects in the same project:
