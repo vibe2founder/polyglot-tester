@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.png" alt="one-spec-4-all" width="200"/>
+  <img src="./logo.png" alt="one-spec-4-all" width="100%"/>
 </p>
 
 <h1 align="center">One Proof 4 All</h1>
