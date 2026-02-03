@@ -54,7 +54,7 @@ await ApiSpec.define("Ciclo de Vida do Usuário")
     email: "ag@purecore.codes",
     role: "admin"
   })
-  .header("X-Project-ID", "one-spec-4-all")
+  .header("X-Project-ID", "one-proof-4-all")
   .shouldReturn(201)
   .matchingSchema({
     id: "number",

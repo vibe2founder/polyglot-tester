@@ -160,7 +160,7 @@ function App() {
                 Zero Risk. <span className="text-white/40">Total Freedom.</span>
               </h2>
               <p className="text-lg text-white/60 mb-10 leading-relaxed">
-                Your legacy Jest code remains untouched. <b>one-spec-4-all</b>{" "}
+                Your legacy Jest code remains untouched. <b>one-proof-4-all</b>{" "}
                 is an additive framework. Keep your existing tests and start
                 adding new ones using the dialect that fits best.
               </p>

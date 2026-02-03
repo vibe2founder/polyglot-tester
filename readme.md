@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.png" alt="one-spec-4-all" width="100%"/>
+  <img src="./logo.png" alt="one-proof-4-all" width="100%"/>
 </p>
 
 <h1 align="center">One Proof 4 All</h1>
@@ -36,7 +36,7 @@
 ## 🚀 Installation
 
 ```bash
-npm install @purecore/one-spec-4-all
+npm install @purecore/one-proof-4-all
 ```
 
 ## ⚡ Quick Start
@@ -44,7 +44,7 @@ npm install @purecore/one-spec-4-all
 Create a test file `api.spec.ts`:
 
 ```javascript
-import { ensure, check, that, stub } from "@purecore/one-spec-4-all";
+import { ensure, check, that, stub } from "@purecore/one-proof-4-all";
 
 ensure("My User API", () => {
   const api = stub();
@@ -62,7 +62,7 @@ ensure("My User API", () => {
 Run your tests:
 
 ```bash
-npx one-spec-4-all
+npx one-proof-4-all
 # or aliases:
 npx os4all
 npx 1spec
@@ -110,7 +110,7 @@ Perfect for scientists and mathematicians proving pure functions.
 
 ### Example
 ```javascript
-import { axiom, proof, implies } from "@purecore/one-spec-4-all";
+import { axiom, proof, implies } from "@purecore/one-proof-4-all";
 
 axiom("SHA-256 Hash Theory", () => {
   proof("Empty string hash converges to known constant", () => {
@@ -140,7 +140,7 @@ Designed for teams with product managers who need to validate business rules.
 
 ### Example
 ```javascript
-import { intend, scenario, to, standIn } from "@purecore/one-spec-4-all";
+import { intend, scenario, to, standIn } from "@purecore/one-proof-4-all";
 
 intend("User Permission Journey", () => {
   const userService = standIn();
@@ -181,7 +181,7 @@ For backend developers testing API contracts and integrations.
 
 ### Example
 ```javascript
-import { ensure, verify, that, stub, initAll, reset } from "@purecore/one-spec-4-all";
+import { ensure, verify, that, stub, initAll, reset } from "@purecore/one-proof-4-all";
 
 let api;
 
@@ -224,7 +224,7 @@ Specialized for backend services and QA teams testing microservices.
 
 ### Example
 ```javascript
-import { ApiSpec } from "@purecore/one-spec-4-all";
+import { ApiSpec } from "@purecore/one-proof-4-all";
 
 const userSchema = {
   type: "object",
@@ -271,7 +271,7 @@ await ApiSpec.define("Get User")
 1. **Create a file** ending in `.spec.ts` (e.g., `api.spec.ts`)
 2. **Import** the dialect:
    ```typescript
-   import { ApiSpec } from "@purecore/one-spec-4-all";
+   import { ApiSpec } from "@purecore/one-proof-4-all";
    ```
 3. **Define and run** your test (supports Top-Level Await):
    ```typescript
@@ -283,7 +283,7 @@ await ApiSpec.define("Get User")
    ```
 4. **Execute** using the CLI:
    ```bash
-   npx one-spec-4-all
+   npx one-proof-4-all
    # or with bun
    bun run os4all
    ```
@@ -294,7 +294,7 @@ Using multiple dialects in the same project:
 
 ```javascript
 // 📐 MATHEMATICAL: Price calculations (pure logic)
-import { axiom, proof, implies } from "@purecore/one-spec-4-all";
+import { axiom, proof, implies } from "@purecore/one-proof-4-all";
 
 axiom("Price Calculation Theory", () => {
   proof("10% discount on $100 equals $90", () => {
@@ -310,7 +310,7 @@ axiom("Price Calculation Theory", () => {
 });
 
 // 📖 NARRATIVE: User journey (PM readable)
-import { intend, scenario, to } from "@purecore/one-spec-4-all";
+import { intend, scenario, to } from "@purecore/one-proof-4-all";
 
 intend("User Shopping Journey", () => {
   scenario("User adds product to cart", () => {
@@ -327,7 +327,7 @@ intend("User Shopping Journey", () => {
 });
 
 // 🛡️ IMPERATIVE: Payment gateway integration (strict contract)
-import { ensure, check, that } from "@purecore/one-spec-4-all";
+import { ensure, check, that } from "@purecore/one-proof-4-all";
 
 ensure("Payment Gateway v2.1 Compliance", () => {
   check("Transaction returns status 200", () => {
@@ -387,7 +387,7 @@ describe("Login Module (Legacy)", () => {
 });
 
 // ✅ New feature with new dialect - COMPLEMENTARY
-import { axiom, implies } from "@purecore/one-spec-4-all";
+import { axiom, implies } from "@purecore/one-proof-4-all";
 
 axiom("New SHA-256 Cryptography", () => {
   implies(hash("123")).matches(/^[a-f0-9]{64}$/);
@@ -400,7 +400,7 @@ axiom("New SHA-256 Cryptography", () => {
 
 ### 💰 Communication ROI
 
-| Problem | Solution with one-spec-4-all |
+| Problem | Solution with one-proof-4-all |
 |---------|------------------------------|
 | PMs can't read tests | Narrative dialect produces **readable specifications** |
 | Meetings to validate rules | Tests become **approvable documentation** |
@@ -432,22 +432,22 @@ axiom("New SHA-256 Cryptography", () => {
 
 ```bash
 # Run all specs
-npx one-spec-4-all
+npx one-proof-4-all
 
 # Watch mode
-npx one-spec-4-all --watch
+npx one-proof-4-all --watch
 
 # Specific file
-npx one-spec-4-all src/**/*.spec.ts
+npx one-proof-4-all src/**/*.spec.ts
 
 # With coverage
-npx one-spec-4-all --coverage
+npx one-proof-4-all --coverage
 ```
 
 ## 📦 Package Structure
 
 ```
-@purecore/one-spec-4-all/
+@purecore/one-proof-4-all/
 ├── src/
 │   ├── index.ts          # Main entry point
 │   └── cli.ts            # CLI runner
