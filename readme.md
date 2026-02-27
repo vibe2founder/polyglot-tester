@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="./logo.png" alt="one-spec-4-all" width="100%"/>
-</p>
-
-<h1 align="center">One Proof 4 All</h1>
+<h1 align="center">Polyglot Tester</h1>
 
 <p align="center">
   <strong>One Runner to Rule Them All</strong>
@@ -482,4 +478,5 @@ Cogfulness Ethical License (CEL) v1.0
 
 <p align="center">
   Made with ❤️ by <a href="https://github.com/suissa">suissAI</a>
+
 </p>
