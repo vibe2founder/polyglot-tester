@@ -1,4 +1,4 @@
-# 🔬 @purecore/one-proof-4-all (tests2dialects)
+# 🔬 @vibe2founder/tests2dialects
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Zero Dependencies](https://img.shields.io/badge/Deps-Zero-00d4aa?logo=checkmarx&logoColor=white)](.)
@@ -7,7 +7,7 @@
 [![Event Sourcing](https://img.shields.io/badge/Pattern-Event_Sourcing-ff6b6b)](.)
 [![Proxy](https://img.shields.io/badge/Engine-ES6_Proxy-ffd93d)](.)
 
-> *@purecore/one-proof-4-all* — Adoção zero-risco! O framework que unifica diferentes dialetos de TDD e BDD num só lugar e em 1 só runner universal compatível com Jest e Bun!
+> *@vibe2founder/tests2dialects* — Adoção zero-risco! O framework que unifica diferentes dialetos de TDD e BDD num só lugar e em 1 só runner universal compatível com Jest e Bun!
 
 [🔗 Veja o nosso CHANGELOG.md](CHANGELOG.md) para acompanhar as atualizações mais recentes.
 

@@ -1,19 +1,37 @@
 {
-  "name": "@purecore/one-proof-4-all",
-  "version": "1.0.1",
+  "name": "@vibe2founder/tests2dialects",
+  "version": "0.1.0",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/src/index.js",
+  "module": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js",
+      "default": "./dist/src/index.js"
+    }
+  },
   "access": "public",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "node dist/src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "tests",
+    "testing",
+    "tdd",
+    "bdd",
+    "test-runner",
+    "dialects",
+    "vitest",
+    "jest",
+    "bun-test"
+  ],
   "author": "suissAI",
   "license": "Cogfulness Ethical License (CEL) v1.0",
-  "description": "",
+  "description": "Framework unificado de testes TDD/BDD com múltiplos dialetos",
   "bin": {
     "tests2dialects": "./src/cli.ts",
     "os4all": "./src/cli.ts",
@@ -32,5 +50,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/suissa/vibe2founder-tests2dialects.git"
-  }
+  },
+  "files": [
+    "dist",
+    "src",
+    "packages"
+  ]
 }

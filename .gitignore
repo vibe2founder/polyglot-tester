@@ -2,3 +2,11 @@ node_modules/
 dist/
 */*.mp4
 */*.m4a
+package-lock.json
+*.tgz
+*.tsbuildinfo
+.DS_Store
+.env
+.env.local
+.env.test
+.env.test.local

@@ -6,7 +6,7 @@ import {
   TestName,
   SchemaDefinition,
 } from "../../types/api-types.js";
-import { request2http, request2httpResponse } from "../request2http/index.js";
+import { request2http, request2httpResponse } from "../reqify/index.js";
 
 export class ApiTestDialect {
   private _name: TestName;

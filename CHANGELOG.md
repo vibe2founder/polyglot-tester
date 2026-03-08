@@ -4,7 +4,7 @@
 
 ### What's Changed
 
-- [x] Renomeado pacote para `@purecore/one-proof-4-all` conforme padrão do ecossistema.
+- [x] Renomeado pacote para `@vibe2founder/tests2dialects` conforme padrão do ecossistema.
 - [x] Implementação de **Tipagem Semântica Nominal** no Core Engine (Rule 11).
 - [x] Remoção de `console.log` de produção para conformidade técnica.
 - [x] Padronização do README.md com brasões e documentação arquitetural.
